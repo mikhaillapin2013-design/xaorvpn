@@ -67,9 +67,13 @@ details{border-bottom:1px solid var(--line);padding:12px 0}details:last-child{bo
 </section>
 
 <section class="tab" id="ref">
- <div class="card hero"><div style="font-size:44px">🎁</div><h2>Пригласите друзей</h2><p class="mu" style="margin-top:6px">За каждого друга, который оформит подписку, вы получите <b class="g">+1 час</b></p></div>
+ <div class="card hero"><div style="font-size:44px">🎁</div><h2>Пригласите друзей</h2><p class="mu" style="margin-top:6px">За каждого друга, который оформит подписку, вы получите <b class="g">от 1 до 6 часов</b></p></div>
  <div class="card"><p class="mu">Ваша ссылка</p><p id="rl" style="word-break:break-all;margin:6px 0 12px">...</p>
   <div class="row"><button class="btn" onclick="share()">📤 Поделиться</button><button class="btn s" onclick="copy()">📋 Копировать</button></div></div>
+ <div class="card"><h3 style="margin-bottom:10px">🎁 Бонусы в боте</h3><div class="row" style="flex-wrap:wrap;gap:8px">
+  <button class="btn s" onclick="tg('start=daily')">📅 Ежедневный</button><button class="btn s" onclick="tg('start=wheel')">🎡 Колесо</button>
+  <button class="btn s" onclick="tg('start=quiz')">🧠 Викторина</button><button class="btn s" onclick="tg('start=draw')">🎲 Розыгрыш</button>
+  <button class="btn s" onclick="tg('start=top')">🏆 Топ</button><button class="btn s" onclick="tg('start=ach')">🏅 Достижения</button></div></div>
 </section>
 
 <section class="tab" id="guide">
